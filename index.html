@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+  
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+  
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+  
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDdoyKB5yyv76i070iCqIyISRwbpJsbjjg",
+        authDomain: "bounce-ball-937dc.firebaseapp.com",
+        databaseURL: "https://bounce-ball-937dc-default-rtdb.firebaseio.com",
+        projectId: "bounce-ball-937dc",
+        storageBucket: "bounce-ball-937dc.appspot.com",
+        messagingSenderId: "1059447317813",
+        appId: "1:1059447317813:web:be211e8d084f5856f1d87c"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+  </script>
+    
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
